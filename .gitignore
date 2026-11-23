@@ -1,0 +1,27 @@
+# ── your credentials — NEVER commit ────────────────────────────
+.private/
+handoff/
+release-config.json
+*.p8
+*.p12
+*.jks
+*.keystore
+*.mobileprovision
+*-service-account.json
+google-services.json
+GoogleService-Info.plist
+secrets/
+
+# ── build artifacts ────────────────────────────────────────────
+release-artifacts/
+android/
+ios/
+node_modules/
+web-build/
+*.aab
+*.ipa
+*.xcarchive
+
+# ── os / editor ────────────────────────────────────────────────
+.DS_Store
+*.log

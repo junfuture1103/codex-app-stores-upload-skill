@@ -1,0 +1,26 @@
+{
+  "bundleId": "com.yourcompany.yourapp",
+
+  "apple": {
+    "teamId": "REQUIRED",
+    "keyId": "REQUIRED",
+    "issuerId": "REQUIRED",
+    "keyPath": "/absolute/path/to/AuthKey_XXXXXXXXXX.p8",
+    "appId": "REQUIRED",
+    "p12Path": "/absolute/path/to/distribution.p12",
+    "p12Password": "REQUIRED",
+    "profilePath": "/absolute/path/to/appstore.mobileprovision"
+  },
+
+  "google": {
+    "serviceAccountPath": "/absolute/path/to/play-service-account.json",
+    "developerId": "REQUIRED"
+  },
+
+  "android": {
+    "keystorePath": "/absolute/path/to/upload-keystore.jks",
+    "storePassword": "REQUIRED",
+    "keyAlias": "upload",
+    "keyPassword": "REQUIRED"
+  }
+}
